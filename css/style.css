@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Roboto Condensed Light';
+  src: url('RobotoCondensed-Light.woff2') format('woff2'),
+    url('RobotoCondensed-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Regular';
+  src: url('RobotoCondensed-Regular.woff2') format('woff2'),
+    url('RobotoCondensed-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Bold';
+  src: url('RobotoCondensed-Bold.woff2') format('woff2'),
+    url('RobotoCondensed-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway SemiBold';
+  src: url('Raleway-SemiBold.woff2') format('woff2'),
+    url('Raleway-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url('Raleway-Bold.woff2') format('woff2'),
+    url('Raleway-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --text-light-color: #FFFFFF;
+  --title-color: #01353E;
+  --text-color-one: #000000;
+  --bg-color: #F8F8F8;
+  --main-color: #00B2A0;
+  --text-color-two: #242121;
+  --btn-border-color: #C4C4C4;
+  --form-border-color: #DADADA;
+  --h1-color: #0D302C;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Roboto Condensed Regular';
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list-reset {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+
+}
+
+.header {
+  background-image: url();
+}
