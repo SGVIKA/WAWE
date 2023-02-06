@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Roboto Condensed Light';
-  src: url('RobotoCondensed-Light.woff2') format('woff2'),
-    url('RobotoCondensed-Light.woff') format('woff');
+  src: url(/asset/font/RobotoCondensed-Light.woff2) format('woff2'),
+    url(/asset/font/RobotoCondensed-Light.woff) format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Roboto Condensed Regular';
-  src: url('RobotoCondensed-Regular.woff2') format('woff2'),
-    url('RobotoCondensed-Regular.woff') format('woff');
+  src: url(/asset/font/RobotoCondensed-Regular.woff2) format('woff2'),
+    url(/asset/font/RobotoCondensed-Regular.woff) format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'Roboto Condensed Bold';
-  src: url('RobotoCondensed-Bold.woff2') format('woff2'),
-    url('RobotoCondensed-Bold.woff') format('woff');
+  src: url(/asset/font/RobotoCondensed-Bold.woff2) format('woff2'),
+    url(/asset/font/RobotoCondensed-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: 'Raleway SemiBold';
-  src: url('Raleway-SemiBold.woff2') format('woff2'),
-    url('Raleway-SemiBold.woff') format('woff');
+  src: url(/asset/font/Raleway-SemiBold.woff2) format('woff2'),
+    url(/asset/font/Raleway-SemiBold.woff) format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -36,8 +36,8 @@
 
 @font-face {
   font-family: 'Raleway Bold';
-  src: url('Raleway-Bold.woff2') format('woff2'),
-    url('Raleway-Bold.woff') format('woff');
+  src: url(/asset/font/Raleway-Bold.woff2) format('woff2'),
+    url(/asset/font/Raleway-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -89,10 +89,83 @@ img {
   margin: 0;
 }
 
-.container {
-
+.header {
+  background-image: url(/asset/img/header/bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 35px;
 }
 
-.header {
-  background-image: url();
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__row1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 955px;
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+.header__logo {}
+
+.nav {}
+
+.header__nav {}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item {
+  margin-right: 45px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--text-light-color);
+  border-bottom: 1px solid transparent;
+  transition: 0.5s ease-in-out;
+}
+
+.menu__link:hover {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.header__row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 243px 0 92.19px 0;
+}
+
+.h1 {
+  font-family: 'Raleway Bold';
+  font-size: 12.5rem;
+  color: var(--h1-color);
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--text-color-one);
+  margin: 0;
+}
+
+.header__decor {
+  margin-top: 315px;
 }
