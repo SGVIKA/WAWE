@@ -169,3 +169,60 @@ img {
 .header__decor {
   margin-top: 315px;
 }
+
+.about {
+  padding: 189px 0 199px 0;
+}
+
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.h2 {
+  margin: 0;
+  font-family: 'Raleway SemiBold';
+  font-size: 3rem;
+  color: var(--title-color);
+}
+
+.about__title {}
+
+.title__decor {
+  position: relative;
+  top: 20px;
+  width: 48px;
+  height: 85px;
+}
+
+
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.ab-t__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  max-width: 1080px;
+}
+
+.ab-t__row:first-child {
+  margin: 0;
+}
+
+.text {
+  font-family: 'Roboto Condensed Light';
+  font-size: 0.875rem;
+  color: var(--text-color-two);
+  line-height: 129%;
+}
+
+.ab-t__row p {
+  max-width: 480px;
+  margin: 0;
+}
