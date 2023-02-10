@@ -239,13 +239,16 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-bottom: 102px;
 }
 
 .ben__card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   max-width: 350px;
+  height: 137px;
 }
 
 .ben-card__row {
@@ -268,20 +271,54 @@ img {
   margin: 0;
 }
 
-.in__row {}
+.in__row {
+  display: flex;
+  justify-content: space-between;
+}
 
-.stat {}
+.stat {
+  max-width: 50%;
+}
 
-.stat__card {}
+.stat__card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
 
-.stat-card__row {}
+.stat__card:last-child {
+  margin: 0;
+}
 
-.stat-card__scale {}
+.stat-card__row {
+  display: flex;
+  align-items: flex-end;
+}
 
-.stat-card_percent {}
+.stat-card__scale {
+  margin-right: 10px;
+}
 
-.stat-card__text {}
+.stat-card_percent {
+  font-family: 'Roboto Condensed Regular';
+  font-size: 1.5rem;
+  line-height: 75%;
+  letter-spacing: 0.6px;
+  color: var(--text-color-two);
+  margin: 0;
+}
 
-.in__text {}
+.stat-card__text {
+  font-family: 'Roboto Condensed Light';
+  letter-spacing: 0.6px;
+  color: var(--text-color-two);
+  margin: 0;
+}
 
-.text {}
+.in__text {
+  max-width: 50%;
+}
+
+.in__text p:first-child {
+  margin-bottom: 30px;
+}
