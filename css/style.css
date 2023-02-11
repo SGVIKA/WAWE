@@ -322,3 +322,43 @@ img {
 .in__text p:first-child {
   margin-bottom: 30px;
 }
+
+.peaks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 201px;
+}
+
+.peaks__col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  padding: 200px 41px 146px 20px;
+}
+
+.peaks__col2 {
+  background-image: url(/asset/img/peaks/peaks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.peaks__title {
+  justify-content: flex-start;
+}
+
+.peaks__text {
+  margin-top: 71px;
+}
+
+.peaks__text p {
+  max-width: 507px;
+  margin-bottom: 30px;
+  margin-top: 0;
+
+}
+
+.peaks__text p:last-child {
+  margin-bottom: 0;
+}
