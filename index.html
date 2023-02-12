@@ -287,72 +287,66 @@
     <section class="gallery">
       <div class="container">
 
-        <div>
-          <h2>ГАЛЕРЕЯ</h2>
-          <svg xmlns="http://www.w3.org/2000/svg" width="45" height="52" fill="none">
+        <div class="title">
+          <h2 class="h2">ГАЛЕРЕЯ</h2>
+          <svg class="title__decor" xmlns="http://www.w3.org/2000/svg" width="45" height="52" fill="none">
             <path fill="#00B2A0" d="M44.792.879997 9.728 52H.944L36.008.879997h8.784Z" />
           </svg>
         </div>
 
-        <div>
-          <ul>
-            <li><button type="button">ВСЕ</button></li>
-            <li><button type="button">ТУРИСТЫ</button></li>
-            <li><button type="button">ПРИРОДА</button></li>
-            <li><button type="button">ПРОФИ</button></li>
-          </ul>
+        <ul class="gal__buttons list-reset">
+          <li class="gal-btn__item"><button class="gal-btn" type="button">ВСЕ</button></li>
+          <li class="gal-btn__item"><button class="gal-btn" type="button">ТУРИСТЫ</button></li>
+          <li class="gal-btn__item"><button class="gal-btn" type="button">ПРИРОДА</button></li>
+          <li class="gal-btn__item"><button class="gal-btn" type="button">ПРОФИ</button></li>
+        </ul>
+
+        <div class="gal__row">
+          <figure class="img1">
+            <picture>
+              <source srcset="/asset/img/gallery/pic1.avif" type="image/avif">
+              <source srcset="/asset/img/gallery/pic1.webp" type="image/webp">
+              <img src="/asset/img/gallery/pic1.jpg" alt="">
+            </picture>
+          </figure>
+          <figure class="img2">
+            <picture>
+              <source srcset="/asset/img/gallery/pic2.avif" type="image/avif">
+              <source srcset="/asset/img/gallery/pic2.webp" type="image/webp">
+              <img src="/asset/img/gallery/pic2.jpg" alt="">
+            </picture>
+          </figure>
+          <figure class="img3">
+            <picture>
+              <source srcset="/asset/img/gallery/pic3.avif" type="image/avif">
+              <source srcset="/asset/img/gallery/pic3.webp" type="image/webp">
+              <img src="/asset/img/gallery/pic3.jpg" alt="">
+            </picture>
+          </figure>
+          <figure class="img4">
+            <picture>
+              <source srcset="/asset/img/gallery/pic4.avif" type="image/avif">
+              <source srcset="/asset/img/gallery/pic4.webp" type="image/webp">
+              <img src="/asset/img/gallery/pic4.jpg" alt="">
+            </picture>
+          </figure>
+          <figure class="img5">
+            <picture>
+              <source srcset="/asset/img/gallery/pic5.avif" type="image/avif">
+              <source srcset="/asset/img/gallery/pic5.webp" type="image/avif">
+              <img src="/asset/img/gallery/pic5.jpg" alt="">
+            </picture>
+          </figure>
+          <figure class="img6">
+            <picture>
+              <source srcset="/asset/img/gallery/pic6.avif" type="image/avif">
+              <source srcset="/asset/img/gallery/pic6.webp" type="image/avif">
+              <img src="/asset/img/gallery/pic6.jpg" alt="">
+            </picture>
+          </figure>
         </div>
 
-        <div>
-          <div>
-            <figure>
-              <picture>
-                <source srcset="/asset/img/gallery/pic1.avif" type="image/avif">
-                <source srcset="/asset/img/gallery/pic1.webp" type="image/webp">
-                <img src="/asset/img/gallery/pic1.jpg" alt="">
-              </picture>
-            </figure>
-            <figure>
-              <picture>
-                <source srcset="/asset/img/gallery/pic2.avif" type="image/avif">
-                <source srcset="/asset/img/gallery/pic2.webp" type="image/webp">
-                <img src="/asset/img/gallery/pic2.jpg" alt="">
-              </picture>
-            </figure>
-            <figure>
-              <picture>
-                <source srcset="/asset/img/gallery/pic3.avif" type="image/avif">
-                <source srcset="/asset/img/gallery/pic3.webp" type="image/webp">
-                <img src="/asset/img/gallery/pic3.jpg" alt="">
-              </picture>
-            </figure>
-          </div>
-          <div>
-            <figure>
-              <picture>
-                <source srcset="/asset/img/gallery/pic4.avif" type="image/avif">
-                <source srcset="/asset/img/gallery/pic4.webp" type="image/webp">
-                <img src="/asset/img/gallery/pic4.jpg" alt="">
-              </picture>
-            </figure>
-            <figure>
-              <picture>
-                <source srcset="/asset/img/gallery/pic5.avif" type="image/avif">
-                <source srcset="/asset/img/gallery/pic5.webp" type="image/avif">
-                <img src="/asset/img/gallery/pic5.jpg" alt="">
-              </picture>
-            </figure>
-            <figure>
-              <picture>
-                <source srcset="/asset/img/gallery/pic6.avif" type="image/avif">
-                <source srcset="/asset/img/gallery/pic6.webp" type="image/avif">
-                <img src="/asset/img/gallery/pic6.jpg" alt="">
-              </picture>
-            </figure>
-          </div>
-        </div>
-
-        <div><button type="button">ПОКАЗАТЬ ЕЩЕ</button></div>
+        <div class="gal__btn"><button class="btn" type="button">ПОКАЗАТЬ ЕЩЕ</button></div>
 
       </div>
     </section>

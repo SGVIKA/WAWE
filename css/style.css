@@ -362,3 +362,92 @@ img {
 .peaks__text p:last-child {
   margin-bottom: 0;
 }
+
+.gallery {
+  padding-bottom: 200px;
+}
+
+.gal__buttons {
+  padding-top: 183px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gal-btn__item {
+  margin-right: 20px;
+}
+
+.gal-btn__item:last-child {
+  margin: 0;
+}
+
+.gal-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-color-two);
+  transition: 0.5s ease-in-out;
+}
+
+.gal-btn:hover,
+.gal-btn:active {
+  color: var(--main-color);
+}
+
+.gal__row {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "img1 img1 img2 img3" "img4 img5 img6 img6";
+  gap: 40px;
+}
+
+.img1 {
+  grid-area: img1;
+  width: 580px;
+  height: 280px;
+}
+
+.img2 {
+  grid-area: img2;
+  width: 290px;
+  height: 280px;
+}
+
+.img3 {
+  grid-area: img3;
+  width: 250px;
+  height: 280px;
+}
+
+.img4 {
+  grid-area: img4;
+  width: 250px;
+  height: 280px;
+}
+
+.img5 {
+  grid-area: img5;
+  width: 290px;
+  height: 280px;
+}
+
+.img6 {
+  grid-area: img6;
+  width: 580px;
+  height: 280px;
+}
+
+.gal__btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background: var(--text-light-color);
+  border: 1px solid var(--btn-border-color);
+  padding: 23px 91px;
+  font-size: 1.5rem;
+}
