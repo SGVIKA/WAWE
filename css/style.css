@@ -480,3 +480,14 @@ img {
   display: flex;
   justify-content: flex-end;
 }
+
+.video {
+  padding-top: 203px;
+  padding-bottom: 200px;
+}
+
+.video__player {}
+
+.options {
+  padding: 0px 253px 198px 251px;
+}
